@@ -46,29 +46,39 @@ A robust, full-stack media processing web application designed to handle advance
 
 - Follow these instructions to get the application up and running on your local machine using Docker.
 
-### Prerequisites
+## Prerequisites
 
 Ensure you have Docker and Docker Compose installed on your system.
 
-### Setup Steps
+## Setup Steps
 
-1. Clone the repository:
-   - git clone https://github.com/jteodol06-hub/Teodol-media-platform2.git
-cd Teodol-media-platform2
+1. **Clone the repository:**
 
-2. Configure environment variables:
-Copy the example environment file and fill in your custom configurations:
-   - cp .env.example .env
-(Open the newly created .env file and add your database URLs, secret keys, and any external API credentials).
+```bash
+   git clone https://github.com/jteodol06-hub/Teodol-media-platform2.git
+   cd Teodol-media-platform2
+```
 
-3. Build and start the containers:
-   - docker compose up --build
+2. **Configure environment variables:**
 
-4. Access the application:
+   Copy the example environment file and fill in your custom configurations:
 
-Frontend UI: http://localhost:3000
+```bash
+   cp .env.example .env
+```
 
-Backend API Docs (Swagger): http://localhost:8000/docs
+   Open the newly created `.env` file and add your database URLs, secret keys, and any external API credentials.
+
+3. **Build and start the containers:**
+
+```bash
+   docker compose up --build
+```
+
+4. **Access the application:**
+
+   - Frontend UI: http://localhost:3000
+   - Backend API Docs (Swagger): http://localhost:8000/docs
 
 ## Layout
 - `backend/app/core` config, security helpers
