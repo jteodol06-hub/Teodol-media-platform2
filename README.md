@@ -27,8 +27,9 @@ A robust, full-stack media processing web application designed to handle advance
 - Containerization: Docker & Docker Compose
 
   ## 📁 Project Layout
-  
-  ├── backend/
+```text
+.
+├── backend/
 │   └── app/
 │       ├── core/         # Configuration and security helpers
 │       ├── routers/      # API route endpoints
@@ -39,6 +40,7 @@ A robust, full-stack media processing web application designed to handle advance
 │       └── components/   # Reusable UI components
 ├── docker-compose.yml
 └── README.md
+```
 
 ## 🚀 Running Locally
 
